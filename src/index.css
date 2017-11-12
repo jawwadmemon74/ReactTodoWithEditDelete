@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.todoEditButton {
+  float:right
+}
+span.todoItem {
+  float: left;
+  width: 70%
+}
+
+.todoSingle {
+  float: left;
+  width: 100%;
+  clear: both;
+  background: #f7f7f7;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  transition: all ease 400ms
+}
+span.todoItem > div {
+  margin-bottom: 0 !important;
+}
+span.todoItem {
+  float: left;
+  width: 70%;
+  padding: 6px 0;
+}
+.inputs-btns > div:first-child {
+  width: 80% !important;
+  top: 5px;
+  margin-right: 2%;
+}
+
+.inputs-btns > div:last-child {
+  width: 18%;
+}
+
+.inputs-btns {
+  float: none;
+  width: 100%;
+  position: absolute;
+  left: 00;
+  max-width: 770px;
+  margin: auto;
+  right: 0;
+  bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.inputs-btns > div:first-child * {
+  color: #000!important;
+  border-color: #000 !important;
+}
+.mainTodoList {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    height: calc(100vh - 166px);
+    overflow-x: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+
+.todoEditInner {
+    float: left;
+    width: 100% !important;
+}
+
+.todoEditInner > div:first-child {
+    width: 84% !important;
+    margin-right: 2%;
+    top: 3px;
+}
+
+.todoEditInner > div:first-child * {
+    color: #666 !important;
+    border-color: #999 !important;
+}
